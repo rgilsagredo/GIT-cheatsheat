@@ -1,4 +1,5 @@
 create a git repo in local: git init
+<<<<<<< HEAD
 git add to add file for commit
 create a repo on github
 i created "https://github.com/rgilsagredo/GIT-cheatsheat.git"
@@ -10,3 +11,6 @@ basicamente ya con eso tienes para empezar a jugar
 
 otra manera de empezar es clonarse un repo que ya exsita, con git clone url_2_repo
 ya automaticamente tracea msteer y puedes empezar a jugar
+=======
+
+>>>>>>> e4e8cc176515ff7d7e39089a063f6676031f6603
