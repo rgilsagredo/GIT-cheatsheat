@@ -21,6 +21,7 @@ what is saved in a commit is the status of the file when "added", if you modify 
 when you modify a tracked file git tells you that it has been modified.
 and yeah, commit is basically take a snapshot of what i just added
 you can unadd a file with git reset
+ignoring files: 
 
 
 useful commands
