@@ -1,16 +1,27 @@
-create a git repo in local: git init
-<<<<<<< HEAD
-git add to add file for commit
-create a repo on github
-i created "https://github.com/rgilsagredo/GIT-cheatsheat.git"
-the add remote with git remote add origin https://github.com/rgilsagredo/GIT-cheatsheat.git
-help with git "command" -h --> quick help
-git branch -M "name" renames branch
-git push -u origin master --> pushea al remoto y trackea master local con master de origin
-basicamente ya con eso tienes para empezar a jugar
+Starting with GIT:
 
-otra manera de empezar es clonarse un repo que ya exsita, con git clone url_2_repo
-ya automaticamente tracea msteer y puedes empezar a jugar
-=======
+you an either create a local repo and worj there, or clone a repo that is on some server like github
 
->>>>>>> e4e8cc176515ff7d7e39089a063f6676031f6603
+Create something local:
+go to the folder, and type "git init". That creates a local repo. But you'll like to have also a remote repo to save and share your local work, so go to github (or similar)
+and create a repo (an empty one, i created "https://github.com/rgilsagredo/GIT-cheatsheat.git") and then sync them with 
+"git remote add origin https://github.com/rgilsagredo/GIT-cheatsheat.git"
+After this, you set the local to treack the remote with git push -u origin master
+
+
+Cloning from existin repo:
+use "git clone url" to copy it to your local machine
+
+
+Managing files
+
+
+
+useful commands
+git init --> create a local repo
+git clone "url" clones an existing repo
+git remote add origin "url" adds a remote to current repo
+git "command_name" -h quick help for a command
+git push -u origin master --> pushes the branch to track remote branch "master"
+git branch -M "name" renames current branch to "name"
+git branch -vv shows a lot of info, very useful
