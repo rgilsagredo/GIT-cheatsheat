@@ -22,6 +22,9 @@ when you modify a tracked file git tells you that it has been modified.
 and yeah, commit is basically take a snapshot of what i just added
 you can unadd a file with git reset
 ignoring files: 
+first you should create a ".gitignore" file, in windows, just create a txt file called gitignore.txt, and rename it to ".gitignore."
+in that file, add the file you want git to ignore, or he patters for multiple files/folders. Seek for the patterns online
+
 
 
 useful commands
