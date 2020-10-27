@@ -26,6 +26,12 @@ first you should create a ".gitignore" file, in windows, just create a txt file 
 in that file, add the file you want git to ignore, or he patters for multiple files/folders. Seek for the patterns online
 
 
+undoing stuff:
+you commited too early, want to either add files and/or change the message. you do an amend
+To just chaneg the message, do "git commit --amend -m "nuevo mensaje""
+si quieres añadir cosas que se te han pasado, le das a add y "git commit --amned" (with new massage optional)
+
+
 
 useful commands
 git init --> create a local repo
