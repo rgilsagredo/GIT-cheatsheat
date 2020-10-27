@@ -31,6 +31,9 @@ you commited too early, want to either add files and/or change the message. you 
 To just chaneg the message, do "git commit --amend -m "nuevo mensaje""
 si quieres añadir cosas que se te han pasado, le das a add y "git commit --amned" (with new massage optional)
 
+para quitar cosas del stage (antes de hacer commit) haces un "git reset HEAD file2beunstaged", también "git restore --staged <file>..." to unstage
+
+
 
 
 useful commands
