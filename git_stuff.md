@@ -32,7 +32,12 @@ To just chaneg the message, do "git commit --amend -m "nuevo mensaje""
 si quieres añadir cosas que se te han pasado, le das a add y "git commit --amned" (with new massage optional)
 
 para quitar cosas del stage (antes de hacer commit) haces un "git reset HEAD file2beunstaged", también "git restore --staged <file>..." to unstage
+para deshacer cambios que no quieres, anets de stagear, hace un "git git checkout -- fine_name o git restore file_name
 
+branching
+this is used to develop something in paraller nd then put it back to the main branch of development
+to create a branch, "git branch <name>". to go to that branch, git checkout <name>. To create a remote branch that tracks the one you created, do a
+"git push -u origin <name>"
 
 
 
@@ -46,3 +51,13 @@ git branch -M "name" renames current branch to "name"
 git branch -vv shows a lot of info, very useful
 git status to see how your work is doing
 git reset file unadds a file
+git commit --amend -m "some msg" --> para no añadir un commit estúpido más porque lo has hecho mal
+git restore --stages file --> para destagear un archivo
+git restore file_name --> para deshacer cambios en un fichero que no quieres (ojo que se pierden)
+"git branch <name>" --> creates a brch
+git checkout <name> --> changes to the branch <name>
+git log --oneline --decorate --graph --all --> shows hist with nice graph of the branching
+git checkout -b <name> --> creates new branch and switches to it
+git branch -d/-D <name> --> deteles/force deletes a local branch
+git push -u origin <name> --> pushes local branch to remote, and tracks it
+git push origin --delete <name> --> delertes remote branch
