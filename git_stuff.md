@@ -40,7 +40,13 @@ to create a branch, "git branch <name>". to go to that branch, git checkout <nam
 "git push -u origin <name>"
 
 rebasing
-
+this is very similar to merging, but different. The main point is to clean up messy thing. And you should only do it locally, NEVER 
+rebase something you pushed somewhere.
+Ok, the idea is the following: at some point you have a feat. branch and that branch diverges from master. Now you're ready to merge
+feat into master. Well, wha you could do is rebasing instead. That puts the work of the feat branch onto the wotk of the master branch
+(you can find merging conflicts) but once you do that, everything is back on  master branch, and a fast forward merge can be easily done.
+In commands, you are in the branch feat, that you wanna merge into master, then "git rebase master" to rebase it. Solve potential conflicts
+then checkout to master and "git merge feat"
 
 
 
@@ -64,3 +70,4 @@ git checkout -b <name> --> creates new branch and switches to it
 git branch -d/-D <name> --> deteles/force deletes a local branch
 git push -u origin <name> --> pushes local branch to remote, and tracks it
 git push origin --delete <name> --> delertes remote branch
+git rebase branchname --> rebases the current branch onto branchname
