@@ -39,6 +39,9 @@ this is used to develop something in paraller nd then put it back to the main br
 to create a branch, "git branch <name>". to go to that branch, git checkout <name>. To create a remote branch that tracks the one you created, do a
 "git push -u origin <name>"
 
+rebasing
+
+
 
 
 useful commands
