@@ -49,4 +49,8 @@ In commands, you are in the branch feat, that you wanna merge into master, then 
 then checkout to master and **git merge feat**
 
 # Table of useful commands
-
+| Command | Functionality |
+|--|--:|
+|adfaf|afasf|
+|asas|afafafafafaf|
+|||
