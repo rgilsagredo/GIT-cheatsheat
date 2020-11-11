@@ -51,6 +51,23 @@ then checkout to master and **git merge feat**
 # Table of useful commands
 | Command | Functionality |
 |--|--:|
-|adfaf|afasf|
-|asas|afafafafafaf|
-|||
+|git init|create a local repo|
+|git clone _url_|clones an existing repo|
+|git remote add origin _url_|adds a remote to current repo|
+|git _command_name_ -h|quick help for a command|
+|git push -u origin master|pushes the branch to track remote branch "master"|
+|git branch -M "name"|renames current branch to "name"|
+|git branch -vv|shows a lot of info, very useful|
+|git status|to see how your work is doing|
+|git reset file|unadds a file|
+|git commit --amend -m "some msg"|para no añadir un commit estúpido más porque lo has hecho mal|
+|git restore --stages file|para destagear un archivo|
+|git restore file_name|para deshacer cambios en un fichero que no quieres (ojo que se pierden)|
+|git branch <name>|creates a branch|
+|git checkout <name>|changes to the branch <name>|
+|git log --oneline --decorate --graph --all|shows hist with nice graph of the branching|
+|git checkout -b <name>|creates new branch and switches to it|
+|git branch -d/-D <name>|deteles/force deletes a local branch|
+|git push -u origin <name>|pushes local branch to remote, and tracks it|
+|git push origin --delete <name>|delertes remote branch|
+|git rebase branchname|rebases the current branch onto branchname|
