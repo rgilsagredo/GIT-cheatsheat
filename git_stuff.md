@@ -71,3 +71,4 @@ then checkout to master and **git merge feat**
 |git push -u origin <name>|pushes local branch to remote, and tracks it|
 |git push origin --delete <name>|delertes remote branch|
 |git rebase branchname|rebases the current branch onto branchname|
+|git branch --unset-upstream|Stops tracking remote branch|
